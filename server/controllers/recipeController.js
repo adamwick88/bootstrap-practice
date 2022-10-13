@@ -1,8 +1,7 @@
 
-
-
-exports.homepage=async(req,res)=>{
-
-    res.render('index');
-
-}
+module.exports = {
+    getHomepage: (req, res) => {
+      res.render("index.ejs");
+    },
+  };
+  
